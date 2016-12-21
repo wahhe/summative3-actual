@@ -138,7 +138,7 @@ namespace summative3
 
                 whiteBrush.Color = Color.FromArgb(255 - pixels, 0, 255 - pixels);
 
-                g.FillRectangle(whiteBrush, 225 - pixels / 2, 300 - pixels / 2, 30 + pixels, 30 + pixels);
+                g.FillRectangle(whiteBrush, 225 - pixels / 2, 300 - pixels / 2, 30 + pixels, 30 + pixels); 
 
                
                 Thread.Sleep(5);
